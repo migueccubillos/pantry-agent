@@ -1,0 +1,20 @@
+{
+  "basmati rice": {"quantity": 1000, "unit": "g"},
+  "black beans": {"quantity": 400, "unit": "g"},
+  "butter": {"quantity": 150, "unit": "g"},
+  "canned tomatoes": {"quantity": 800, "unit": "g"},
+  "carrot": {"quantity": 3, "unit": "unit"},
+  "cheddar cheese": {"quantity": 200, "unit": "g"},
+  "chicken breast": {"quantity": 500, "unit": "g"},
+  "chickpeas": {"quantity": 400, "unit": "g"},
+  "coconut milk": {"quantity": 400, "unit": "ml"},
+  "egg": {"quantity": 6, "unit": "unit"},
+  "garlic": {"quantity": 8, "unit": "unit"},
+  "olive oil": {"quantity": 500, "unit": "ml"},
+  "onion": {"quantity": 4, "unit": "unit"},
+  "pasta": {"quantity": 500, "unit": "g"},
+  "potato": {"quantity": 5, "unit": "unit"},
+  "soy sauce": {"quantity": 150, "unit": "ml"},
+  "spinach": {"quantity": 100, "unit": "g"},
+  "tortilla": {"quantity": 4, "unit": "unit"}
+}

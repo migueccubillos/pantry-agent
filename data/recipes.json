@@ -1,0 +1,178 @@
+[
+  {
+    "id": "r01", "name": "Chicken Stir-Fry with Rice", "servings": 2, "minutes": 25,
+    "tags": ["dairy-free", "high-protein"], "cuisine": "asian",
+    "ingredients": [
+      {"name": "chicken breast", "quantity": 300, "unit": "g"},
+      {"name": "basmati rice", "quantity": 150, "unit": "g"},
+      {"name": "bell pepper", "quantity": 1, "unit": "unit"},
+      {"name": "carrot", "quantity": 1, "unit": "unit"},
+      {"name": "soy sauce", "quantity": 30, "unit": "ml"},
+      {"name": "garlic", "quantity": 2, "unit": "unit"},
+      {"name": "olive oil", "quantity": 15, "unit": "ml"}
+    ],
+    "steps": ["Cook rice.", "Slice chicken and vegetables.", "Stir-fry chicken in oil, add vegetables and garlic, finish with soy sauce.", "Serve over rice."]
+  },
+  {
+    "id": "r02", "name": "Chickpea & Spinach Coconut Curry", "servings": 2, "minutes": 30,
+    "tags": ["vegetarian", "vegan", "gluten-free", "dairy-free"], "cuisine": "indian",
+    "ingredients": [
+      {"name": "chickpeas", "quantity": 400, "unit": "g"},
+      {"name": "coconut milk", "quantity": 400, "unit": "ml"},
+      {"name": "spinach", "quantity": 100, "unit": "g"},
+      {"name": "onion", "quantity": 1, "unit": "unit"},
+      {"name": "garlic", "quantity": 2, "unit": "unit"},
+      {"name": "curry powder", "quantity": 10, "unit": "g"},
+      {"name": "basmati rice", "quantity": 150, "unit": "g"}
+    ],
+    "steps": ["Sauté onion and garlic.", "Add curry powder, chickpeas and coconut milk; simmer 15 min.", "Wilt in spinach.", "Serve with rice."]
+  },
+  {
+    "id": "r03", "name": "Pasta al Pomodoro", "servings": 2, "minutes": 20,
+    "tags": ["vegetarian", "vegan", "dairy-free"], "cuisine": "italian",
+    "ingredients": [
+      {"name": "pasta", "quantity": 200, "unit": "g"},
+      {"name": "canned tomatoes", "quantity": 400, "unit": "g"},
+      {"name": "garlic", "quantity": 2, "unit": "unit"},
+      {"name": "olive oil", "quantity": 30, "unit": "ml"},
+      {"name": "fresh basil", "quantity": 10, "unit": "g"}
+    ],
+    "steps": ["Boil pasta.", "Simmer tomatoes with garlic and oil 10 min.", "Toss pasta with sauce and basil."]
+  },
+  {
+    "id": "r04", "name": "Black Bean Quesadillas", "servings": 2, "minutes": 15,
+    "tags": ["vegetarian"], "cuisine": "mexican",
+    "ingredients": [
+      {"name": "tortilla", "quantity": 4, "unit": "unit"},
+      {"name": "black beans", "quantity": 400, "unit": "g"},
+      {"name": "cheddar cheese", "quantity": 150, "unit": "g"},
+      {"name": "onion", "quantity": 1, "unit": "unit"},
+      {"name": "avocado", "quantity": 1, "unit": "unit"}
+    ],
+    "steps": ["Mash beans with sautéed onion.", "Fill tortillas with beans and cheese.", "Toast both sides until golden.", "Serve with sliced avocado."]
+  },
+  {
+    "id": "r05", "name": "Spanish Potato Omelette", "servings": 2, "minutes": 35,
+    "tags": ["vegetarian", "gluten-free", "dairy-free"], "cuisine": "spanish",
+    "ingredients": [
+      {"name": "egg", "quantity": 5, "unit": "unit"},
+      {"name": "potato", "quantity": 3, "unit": "unit"},
+      {"name": "onion", "quantity": 1, "unit": "unit"},
+      {"name": "olive oil", "quantity": 100, "unit": "ml"}
+    ],
+    "steps": ["Slowly fry sliced potato and onion in oil.", "Drain and mix with beaten eggs.", "Cook in a pan, flip, finish."]
+  },
+  {
+    "id": "r06", "name": "Salmon with Roasted Vegetables", "servings": 2, "minutes": 30,
+    "tags": ["gluten-free", "dairy-free", "high-protein", "pescatarian"], "cuisine": "mediterranean",
+    "ingredients": [
+      {"name": "salmon fillet", "quantity": 300, "unit": "g"},
+      {"name": "potato", "quantity": 2, "unit": "unit"},
+      {"name": "zucchini", "quantity": 1, "unit": "unit"},
+      {"name": "lemon", "quantity": 1, "unit": "unit"},
+      {"name": "olive oil", "quantity": 30, "unit": "ml"}
+    ],
+    "steps": ["Roast cubed potato and zucchini 20 min.", "Add salmon with lemon, roast 12 min more."]
+  },
+  {
+    "id": "r07", "name": "Mushroom Risotto", "servings": 2, "minutes": 40,
+    "tags": ["vegetarian", "gluten-free"], "cuisine": "italian",
+    "ingredients": [
+      {"name": "arborio rice", "quantity": 200, "unit": "g"},
+      {"name": "mushrooms", "quantity": 250, "unit": "g"},
+      {"name": "onion", "quantity": 1, "unit": "unit"},
+      {"name": "vegetable stock", "quantity": 900, "unit": "ml"},
+      {"name": "butter", "quantity": 40, "unit": "g"},
+      {"name": "parmesan", "quantity": 50, "unit": "g"}
+    ],
+    "steps": ["Sauté onion and mushrooms in butter.", "Toast rice, add stock ladle by ladle for 20 min.", "Finish with parmesan."]
+  },
+  {
+    "id": "r08", "name": "Lentil Soup", "servings": 2, "minutes": 40,
+    "tags": ["vegetarian", "vegan", "gluten-free", "dairy-free"], "cuisine": "mediterranean",
+    "ingredients": [
+      {"name": "red lentils", "quantity": 200, "unit": "g"},
+      {"name": "carrot", "quantity": 2, "unit": "unit"},
+      {"name": "onion", "quantity": 1, "unit": "unit"},
+      {"name": "garlic", "quantity": 2, "unit": "unit"},
+      {"name": "canned tomatoes", "quantity": 400, "unit": "g"},
+      {"name": "vegetable stock", "quantity": 750, "unit": "ml"}
+    ],
+    "steps": ["Sauté onion, carrot and garlic.", "Add lentils, tomatoes and stock; simmer 25 min.", "Blend partially."]
+  },
+  {
+    "id": "r09", "name": "Beef Tacos", "servings": 2, "minutes": 20,
+    "tags": ["dairy-free", "high-protein"], "cuisine": "mexican",
+    "ingredients": [
+      {"name": "ground beef", "quantity": 300, "unit": "g"},
+      {"name": "tortilla", "quantity": 6, "unit": "unit"},
+      {"name": "onion", "quantity": 1, "unit": "unit"},
+      {"name": "tomato", "quantity": 2, "unit": "unit"},
+      {"name": "lime", "quantity": 1, "unit": "unit"}
+    ],
+    "steps": ["Brown beef with onion.", "Dice tomato into a quick salsa with lime.", "Fill warm tortillas."]
+  },
+  {
+    "id": "r10", "name": "Garlic Butter Chicken & Potatoes", "servings": 2, "minutes": 45,
+    "tags": ["gluten-free", "high-protein"], "cuisine": "american",
+    "ingredients": [
+      {"name": "chicken breast", "quantity": 300, "unit": "g"},
+      {"name": "potato", "quantity": 3, "unit": "unit"},
+      {"name": "butter", "quantity": 40, "unit": "g"},
+      {"name": "garlic", "quantity": 4, "unit": "unit"},
+      {"name": "green beans", "quantity": 200, "unit": "g"}
+    ],
+    "steps": ["Roast potatoes 25 min.", "Pan-sear chicken, baste with garlic butter.", "Steam green beans and serve."]
+  },
+  {
+    "id": "r11", "name": "Vegetable Fried Rice", "servings": 2, "minutes": 20,
+    "tags": ["vegetarian", "dairy-free"], "cuisine": "asian",
+    "ingredients": [
+      {"name": "basmati rice", "quantity": 200, "unit": "g"},
+      {"name": "egg", "quantity": 2, "unit": "unit"},
+      {"name": "carrot", "quantity": 1, "unit": "unit"},
+      {"name": "frozen peas", "quantity": 100, "unit": "g"},
+      {"name": "soy sauce", "quantity": 30, "unit": "ml"},
+      {"name": "spring onion", "quantity": 2, "unit": "unit"}
+    ],
+    "steps": ["Use cold cooked rice.", "Scramble eggs, add vegetables, then rice and soy sauce.", "Top with spring onion."]
+  },
+  {
+    "id": "r12", "name": "Shakshuka", "servings": 2, "minutes": 25,
+    "tags": ["vegetarian", "gluten-free", "dairy-free"], "cuisine": "middle-eastern",
+    "ingredients": [
+      {"name": "egg", "quantity": 4, "unit": "unit"},
+      {"name": "canned tomatoes", "quantity": 400, "unit": "g"},
+      {"name": "bell pepper", "quantity": 1, "unit": "unit"},
+      {"name": "onion", "quantity": 1, "unit": "unit"},
+      {"name": "garlic", "quantity": 2, "unit": "unit"},
+      {"name": "olive oil", "quantity": 15, "unit": "ml"}
+    ],
+    "steps": ["Sauté onion, pepper and garlic.", "Add tomatoes, simmer 10 min.", "Crack eggs into sauce, cover until set."]
+  },
+  {
+    "id": "r13", "name": "Tofu & Broccoli Teriyaki", "servings": 2, "minutes": 25,
+    "tags": ["vegetarian", "vegan", "dairy-free"], "cuisine": "asian",
+    "ingredients": [
+      {"name": "firm tofu", "quantity": 400, "unit": "g"},
+      {"name": "broccoli", "quantity": 300, "unit": "g"},
+      {"name": "soy sauce", "quantity": 45, "unit": "ml"},
+      {"name": "honey", "quantity": 20, "unit": "ml"},
+      {"name": "basmati rice", "quantity": 150, "unit": "g"},
+      {"name": "garlic", "quantity": 1, "unit": "unit"}
+    ],
+    "steps": ["Press and cube tofu, pan-fry until crisp.", "Steam broccoli.", "Glaze with soy, honey and garlic; serve over rice."]
+  },
+  {
+    "id": "r14", "name": "Creamy Spinach Pasta", "servings": 2, "minutes": 20,
+    "tags": ["vegetarian"], "cuisine": "italian",
+    "ingredients": [
+      {"name": "pasta", "quantity": 200, "unit": "g"},
+      {"name": "spinach", "quantity": 150, "unit": "g"},
+      {"name": "heavy cream", "quantity": 200, "unit": "ml"},
+      {"name": "garlic", "quantity": 2, "unit": "unit"},
+      {"name": "parmesan", "quantity": 40, "unit": "g"}
+    ],
+    "steps": ["Boil pasta.", "Simmer garlic in cream, wilt spinach, add parmesan.", "Toss with pasta."]
+  }
+]
