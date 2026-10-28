@@ -143,6 +143,16 @@ Each run prints the menu, shopping list and final inventory, and writes:
 All final inventories were checked by hand against the recipes. For example, in trace 2:
 eggs 1 in stock, 9 needed (5 + 4), 8 bought, 0 left; olive oil 370 − 100 − 15 = 255 ml.
 
+## Structured outputs
+
+The agent exchanges structured, typed data at every step rather than free text:
+
+- **Tool inputs are schema-validated.** Every tool (MCP and local) declares a JSON Schema `input_schema`, and the Claude tool-use API returns `tool_use` blocks whose arguments follow it, e.g. `{"name": "egg", "quantity": 5, "unit": "unit"}`.
+- **Tool outputs are JSON objects.** MCP tools return typed results such as `{"name": "chickpeas", "deducted": 400, "remaining": 0, "unit": "g"}`. The client reads `structuredContent` when the server provides it and otherwise parses the JSON text (`mcp_result_to_python` in `agent/agent.py`). Local tools also return dicts, e.g. `write_shopping_list` returns `{saved_to, item_count, items}`.
+- **Errors are structured.** A failed call goes back to the model as a `tool_result` with `is_error: true` and an actionable message, which is what lets the loop replan.
+- **Every run is logged as structured events.** `traces/<run>.jsonl` holds one JSON object per event (`run_start`, `llm_response`, `tool_call`, `guardrail`, `run_end`) with fixed fields: stop reason, token usage, tool input/output, error flag and latency.
+- **The final state comes from structured data, not from the model's text.** At the end of the run the tracer calls `list_inventory` and stores the JSON inventory in `run_end.final_inventory`. The Markdown answer ("Menu", "Shopping list", "Inventory after the week") is the human-readable view of that data.
+
 ## Design decisions and limitations
 
 - **Mocked recipe search.** It runs on a local catalogue so the runs are reproducible and need no extra API keys.
